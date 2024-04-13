@@ -1,0 +1,9 @@
+Steps to compile & run:
+    - Create a new database on pgAdmin called HealthFitnessDatabase
+    - Git clone or download a zip of the repo in order to run the code
+    - On the pgAdmin database HealthFitnessDatabase, right-click, choose Query tool, and Open the HealthFitnessDatabase.sql file that is located in the SQL directory and run it
+    - Then, on the pgAdmin database HealthFitnessDatabase, right-click, choose Query tool, and Open the DML.sql file that is located in the SQL directory and run it
+    - On lines 9 & 10 on Main.java which is located in src/main/java , make sure you enter your username and password in order to connect to the database
+    - Run MainApp.main() and start working through each functionality
+
+Video Demonstration:
