@@ -1,3 +1,10 @@
+Project Description:
+This is an application for a Health and Fitness Club Management System implemented using Java and JavaFX. This system can be accessed as member, trainer, and administrative staff. 
+Members are able to register and manage their profiles, establish personal fitness goals, and input health metrics. Members have a dashboard where they can view excercise routines. Members can also schedule training sessions with certified trainers. Additionally, they are able to register for group fitness classes. 
+Trainers have the ability to manage their schedules and view member profiles.
+Administrative Staff manage room bookings, monitor fitness equipment maintenance, update class schedules, oversee billing, and process payments for sessions and classes.
+
+
 Steps to compile & run:
     - Create a new database on pgAdmin called HealthFitnessDatabase
     - Git clone or download a zip of the repo in order to run the code
