@@ -4,10 +4,18 @@ Members are able to register and manage their profiles, establish personal fitne
 Trainers have the ability to manage their schedules and view member profiles.
 Administrative Staff manage room bookings, monitor fitness equipment maintenance, update class schedules, oversee billing, and process payments for sessions and classes.
 
+Download JavaFX SDK from https://openjfx.io/
+Click Download then pick version 17.0.10, find the OS you are using then download the SDK for it.
 
 Steps to compile & run:
     - Create a new database on pgAdmin called HealthFitnessDatabase
     - Git clone or download a zip of the repo in order to run the code
+    - Open the the most inner HealthFitnessDatabaseManagement folder on IntelliJ -> Modules
+    - On the top left on the window, click File -> Project Structure -> then click on the + on top of Export -> Library -> Java -> then go to the javafx sdk folder you just downloaded and select the lib folder in it -> Click OK
+    - Next on the top right on the page, next to the build button (hammer), click on the drop down menu and add configuration, click Modify options, click Add VM options, for the first option, pick java 17
+    - For Main Class, pick project and in the src folder find MainApp.java and pick it
+    - For VM options, add " --module-path "C:\PATH_TO\Downloads\openjfx-17.0.2_windows-x64_bin-sdk\javafx-sdk-17.0.2\lib" --add-modules javafx.controls,javafx.fxml" then click OK
+
     - On the pgAdmin database HealthFitnessDatabase, right-click, choose Query tool, and Open the HealthFitnessDatabase.sql file that is located in the SQL directory and run it
     - Then, on the pgAdmin database HealthFitnessDatabase, right-click, choose Query tool, and Open the DML.sql file that is located in the SQL directory and run it
     - On lines 9 & 10 on Main.java which is located in src/main/java , make sure you enter your username and password in order to connect to the database
