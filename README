@@ -21,5 +21,7 @@ Steps to compile & run:
     - On lines 9 & 10 on Main.java which is located in src/main/java , make sure you enter your username and password in order to connect to the database
     - Run MainApp.main() and start working through each functionality
 
+Author: Habiba AlRahwan
+
 Video Demonstration:
 https://youtu.be/3k2G2pF6TtE
